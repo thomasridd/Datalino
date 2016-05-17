@@ -1,10 +1,10 @@
 library("jsonlite")
 
-input_file <- "names.csv"
-output_file <- "names.json"
+input_file <- "bedrequests.csv"
+output_file <- "src/main/resources/bedrequests.json"
 
 # Read data
-data <- read.csv("names.csv", stringsAsFactors = F)
+data <- read.csv(input_file, stringsAsFactors = F)
 
 json <- toJSON(data)
 

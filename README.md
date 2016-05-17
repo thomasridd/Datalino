@@ -7,10 +7,8 @@ Add a .json file to the resources folder to add that endpoint
 
 These examples come from the sample project's names.json
 
-- https://datalino.herokuapp.com/names
-- https://datalino.herokuapp.com/names?Rank=1
-- https://datalino.herokuapp.com/names?Sex=Male
-- https://datalino.herokuapp.com/names?jsonpath=$..Name
+- https://camhs-api.herokuapp.com/trusts
+- https://camhs-api.herokuapp.com/trusts?beds_available_type1=1
 
 
 ## Getting Started
